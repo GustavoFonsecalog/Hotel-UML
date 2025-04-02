@@ -5,13 +5,11 @@ public class Hotel {
     private String nome;
     private List<Quarto> quartos;
 
-    // Construtor
     public Hotel(String nome) {
         this.nome = nome;
         this.quartos = new ArrayList<>();
     }
 
-    // Getter e Setter de nome
     public String getNome() {
         return nome;
     }

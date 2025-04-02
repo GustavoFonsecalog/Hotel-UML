@@ -4,8 +4,8 @@ import java.util.List;
 public class Reserva {
     private String dataEntrada;
     private String dataSaida;
-    private List<Quarto> quartos; // 0..* Quarto
-    private Veiculo veiculo;      // 0..1 Veiculo
+    private List<Quarto> quartos; 
+    private Veiculo veiculo; 
 
     public Reserva(String dataEntrada, String dataSaida) {
         this.dataEntrada = dataEntrada;
